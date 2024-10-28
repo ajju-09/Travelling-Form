@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    font-family: "Mulish";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.image{
+    opacity: 0.8;
+    z-index: -1;
+    width: 80%;
+    height: 750px;
+    background-size: cover;
+    position: absolute;
+    margin: -34px;
+    overflow: none;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+    padding: 34px;
+}
+#submitMsg{
+    color: #3a0ca3;
+    font-style: italic;
+    font-weight: 800;
+}
+.container h1, p{
+    text-align: center;
+}
+p{
+    font-size: 16px;
+}
+input, textarea{
+    width: 80%;
+    margin: 11px 0px;
+    font-size: 16px;
+    padding: 7px;
+    border: 2px soild black;
+    border-radius: 6px;
+    outline: none; 
+   
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    margin: 27px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 10%;
+    background-color: #8eecf5;
+    font-size: medium;
+    cursor: pointer;
+}
